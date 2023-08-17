@@ -3,17 +3,17 @@ export const TablaEncabezado = () => {
     return (
       <thead>
         <tr className="text-center">
-          <td className="px-1">Puesto Historico</td>
-          <td className="px-10">Equipo</td>
-          <td className="px-1">Pais</td>
-          <td className="px-1">Confederacion</td>
-          <td className="px-2">Total</td>
-          <td className="px-1">Mundiales</td>
-          <td className="px-1">Continentales</td>
-          <td className="px-1">Internacionales</td>
-          <td className="px-3">Ligas</td>
-          <td className="px-3">Copas</td>
-          <td>Nacionales</td>
+          <th className="px-1">Puesto Historico</th>
+          <th className="px-10">Equipo</th>
+          <th className="px-1">Pais</th>
+          <th className="px-1">Confederacion</th>
+          <th className="px-2">Total</th>
+          <th className="px-1">Mundiales</th>
+          <th className="px-1">Continentales</th>
+          <th className="px-1">Internacionales</th>
+          <th className="px-3">Ligas</th>
+          <th className="px-3">Copas</th>
+          <th>Nacionales</th>
         </tr>
       </thead>
     )
