@@ -1,0 +1,10 @@
+
+.menu-horizontal li:hover .menu-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.menu-vertical button:hover {
+    transition: all .3s;
+}
