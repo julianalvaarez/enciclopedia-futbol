@@ -19,7 +19,7 @@ export const TeamItemPage = () => {
     }
   
     function onNavigateBack() {
-      navigate(-1)
+      navigate('/')
     }
   return (
     <>
