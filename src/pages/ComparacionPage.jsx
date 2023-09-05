@@ -1,8 +1,10 @@
 import { useContext } from "react"
 import { TeamsContext } from "../context/TeamsContext"
 import { GrClose } from "react-icons/gr";
-
+import { useNavigate } from "react-router-dom";
+1
 export const ComparacionPage = () => {
+  const navigate = useNavigate()
   const {equipoComparado1, equipoComparado2, resetearComparacion} = useContext(TeamsContext)
   const totalInternacionales = equipoComparado1?.CM + equipoComparado1?.CC1 + equipoComparado1?.CC2 + equipoComparado1?.CC3 + equipoComparado1?.CCO
   const totalNacionales = equipoComparado1?.LN + equipoComparado1?.CN + equipoComparado1?.CN2 + equipoComparado1?.OCN
@@ -50,7 +52,7 @@ export const ComparacionPage = () => {
             <h2 className="font-semibold text-center">No Elegiste Dos Equipos a Comparar</h2>
         </div>
       )}  
-      <span className="underline font-semibold mx-3 text-center md:text-lg">Regresar...</span>
+      <span className="underline font-semibold mx-3 text-center md:text-lg" onClick={() => navigate('/')}>Regresar...</span>
     </div>
   )
 }
