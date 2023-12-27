@@ -1,3 +1,3 @@
-# Enciclopedia del Futbol
+# Soccer Encyclopedia
 
-Repositorio de informacion sobre todos los campeones del futbol
+Virtual encyclopedia repository of all world soccer champions. Made with React and TailwindCSS.
